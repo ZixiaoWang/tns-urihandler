@@ -1,5 +1,5 @@
 export interface SchemeObject{
-    url: string,
+    uri: string,
     scheme: string,
     path: string,
     fragment: string,
@@ -18,13 +18,13 @@ export interface SchemeObject{
  * 
  * export class myApp{
  *  constructor(private urihandler: URIHandler){
- *      console.log(this.uriHandler.getUrl());
+ *      console.log(this.uriHandler.getURI());
  *  }
  * }
  */
 export class _URIHandler{
 
-    public url: string;
+    public uri: string;
     public scheme: string;
     public path: string;
     public query: string;
@@ -47,11 +47,11 @@ export class _URIHandler{
     }
 
     /**
-     * @function getUrl
-     * @return {string} Full url path
+     * @function getURI
+     * @return {string} Full uri path
      */
-    getUrl(): string{
-        return this.url;
+    getURI(): string{
+        return this.uri;
     }
 
     /**

@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  *
  * export class myApp{
  *  constructor(private urihandler: URIHandler){
- *      console.log(this.uriHandler.getUrl());
+ *      console.log(this.uriHandler.getURI());
  *  }
  * }
  */
@@ -29,11 +29,11 @@ var _URIHandler = (function () {
         return search;
     };
     /**
-     * @function getUrl
-     * @return {string} Full url path
+     * @function getURI
+     * @return {string} Full uri path
      */
-    _URIHandler.prototype.getUrl = function () {
-        return this.url;
+    _URIHandler.prototype.getURI = function () {
+        return this.uri;
     };
     /**
      * @function getFragment

@@ -11,7 +11,7 @@ export class MyDelegate extends UIResponder implements UIApplicationDelegate{
     
     applicationOpenURLOptions(application: UIApplication, url: NSURL, options: any): boolean {
         if(url){
-            URIHandler.prototype.url = url.absoluteString;
+            URIHandler.prototype.uri = url.absoluteString;
             URIHandler.prototype.fragment = url.fragment;
             URIHandler.prototype.scheme = url.scheme;
             URIHandler.prototype.query = url.query;

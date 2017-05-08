@@ -10,7 +10,7 @@ function androidHandleBundleEventData(args){
     var intent = args.activity.getIntent();
     var data = intent.getData();
     if(data){
-        URIHandler.prototype.url = data.toString();
+        URIHandler.prototype.uri = data.toString();
         URIHandler.prototype.fragment = data.getFragment();
         URIHandler.prototype.scheme = data.getScheme();
         URIHandler.prototype.query = data.getQuery();
