@@ -1,7 +1,7 @@
 {
   "name": "tns-urihandler",
   "version": "1.0.0",
-  "description": "Nativescript Module inner-app communication URI handling.",
+  "description": "Nativescript Module for inner-app communication URI handling.",
   "main": "urihandler",
   "typings":"urihandler.d.ts",
   "scripts": {
