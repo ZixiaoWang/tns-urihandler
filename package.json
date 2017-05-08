@@ -1,0 +1,26 @@
+{
+  "name": "tns-urihandler",
+  "version": "1.0.0",
+  "description": "Nativescript Module inner-app communication URI handling.",
+  "main": "urihandler",
+  "typings":"urihandler.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Jacky Wang",
+  "license": "MIT",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "devDependencies": {
+    "tns-core-modules": "^2.5.0",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "tns-platform-declarations": "^3.0.1"
+  }
+}
