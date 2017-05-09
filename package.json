@@ -1,6 +1,6 @@
 {
   "name": "tns-urihandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nativescript Module for inner-app communication URI handling.",
   "main": "urihandler",
   "typings":"urihandler.d.ts",
@@ -15,6 +15,10 @@
       "android": "2.3.0",
       "ios": "2.3.0"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZixiaoWang/tns-urihandler.git"
   },
   "devDependencies": {
     "tns-core-modules": "^2.5.0",
